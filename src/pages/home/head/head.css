@@ -1,0 +1,70 @@
+.title {
+  margin: 40px;
+  font-family: Eina02;
+  font-size: 56px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.18;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--eggshell);
+}
+
+.body-text {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--eggshell);
+}
+
+.head {
+    display: flex;
+    background-image: url('../../../images/jezael-melgoza-kb-r-06-h-9-d-n-qw-unsplash.webp');
+    height: 768px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contact-us {
+    cursor: pointer;
+    width: 167px;
+    height: 56px;
+    margin: 40px;
+    padding: 14px 30px 16px;
+    background-image: var(--eggshell);
+    border: unset;
+    opacity: 1;
+}
+
+.contact-us:hover {
+    opacity: 0.8;
+}
+
+.contact-us:active {
+    opacity: 0.6;
+}
+
+
+
+.contact-us-text {
+    width: 107px;
+    height: 26px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.63;
+    letter-spacing: normal;
+    color: var(--black);
+}
+
+.akcp-logo {
+    margin-top: 186px;
+}

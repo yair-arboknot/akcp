@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+:root {
+  --ash: #a8a8a8;
+  --concrete: #e1e1e1;
+  --concrete-34: #f5f5f5;
+  --snow-34: #fbfbfb;
+  --snow: #f4f4f4;
+  --eggshell: #f1e9da;
+  --eggshell-34: #faf7f2;
+  --rose: #fb6376;
+  --rose-60: #fda1ad;
+  --rose-34: #fdcad0;
+  --rose-21: #fedee2;
+  --rose-13: #ffebed;
+  --rose-8: #fff3f4;
+  --azalea: #f374ae;
+  --azalea-34: #fbcfe3;
+  --azalea-21: #fce1ee;
+  --azalea-13: #feedf5;
+  --azalea-8: #fef4f9;
+  --litchi: #ff9770;
+  --litchi-60: #ffc1a9;
+  --litchi-34: #ffdbce;
+  --litchi-21: #ffe9e1;
+  --litchi-13: #fff2ed;
+  --litchi-8: #fff7f4;
+  --wine: #75485e;
+  --wine-34: #d0c0c8;
+  --wine-21: #e2d8dd;
+  --wine-13: #ede7ea;
+  --wine-8: #f4f1f3;
+  --violet: #8e7dbe;
+  --violet-34: #d8d3e9;
+  --violet-21: #e7e3f1;
+  --violet-13: #f0eef7;
+  --violet-8: #f6f5fa;
+  --vespa: #fed766;
+  --vespa-34: #fef1cb;
+  --vespa-21: #fef6de;
+  --vespa-13: #fffaeb;
+  --vespa-8: #fffcf3;
+  --mantis: #78c569;
+  --mantis-34: #d1ebcc;
+  --mantis-21: #e2f2df;
+  --mantis-13: #eef8ec;
+  --mantis-8: #f5fbf3;
+  --ocean: #119da4;
+  --ocean-34: #aedde0;
+  --ocean-21: #cdeaeb;
+  --ocean-13: #e0f2f3;
+  --ocean-8: #ecf8f8;
+  --white: #fff;
+  --white-60: rgba(255, 255, 255, 0.6);
+  --black: #000;
+  --black-60: rgba(0, 0, 0, 0.6);
+  --black-44: rgba(0, 0, 0, 0.44);
+  --black-40: rgba(0, 0, 0, 0.4);
+  --black-21: rgba(0, 0, 0, 0.21);
+  --black-20: rgba(0, 0, 0, 0.2);
+  --black-13: rgba(0, 0, 0, 0.13);
+  --black-8: rgba(0, 0, 0, 0.08);
+  --black-4: rgba(0, 0, 0, 0.04);
+  --misc-tc: #2a80b9;
+  --misc-tc-34: #b6d4e7;
+  --misc-whats-app: #1fbea5;
+  --misc-pay-pal: #009cde;
+  --misc-pay-pal-2: #ffc439;
 }

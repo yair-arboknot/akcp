@@ -1,0 +1,119 @@
+.about-us {
+    display: flex;
+    padding: 80px 145px;
+    background-color: #f1e9da;
+    align-items: center;
+    flex-direction: column;
+}
+
+.about-us-title {
+  height: 58px;
+  margin: 0 0 40px;
+  font-family: Eina02;
+  font-size: 48px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.21;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--black);
+}
+
+.about-us-text {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.63;
+  letter-spacing: normal;
+  color: var(--black);
+  
+}
+
+.teammate-card {
+  display: flex;
+  width: calc(100% - 60px);;
+  height: 204px;
+  padding: 30px;
+  margin-bottom: 30px;
+  background-color: rgba(0, 0, 0, 0.05);;
+}
+
+.teammate-image {
+  width: 130px;
+  height: 130px;
+  margin: 0 30px 50px 0;
+  object-fit: contain;
+  border-radius: 65px;
+}
+
+.teammate-body {
+  flex-direction: column;
+  display: flex;
+
+}
+
+.teammate-name {
+  margin: 0 0 10px 0;
+  font-family: Eina02;
+  font-size: 24px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.42;
+  letter-spacing: normal;
+  color: var(--black);
+}
+
+
+.teammate-title-div {
+  align-items: center;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.teammate-title {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: var(--black);
+}
+
+.teammate-description {
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  color: var(--black);
+}
+
+@media only screen and (max-width: 576px) {
+  .teammate-card {
+    width: calc(100% - 60px);
+    height: max-content;
+  }
+  .about-us {
+    padding: 15px;
+  }
+
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  .teammate-card {
+    width: calc(100% - 60px);
+    height: max-content;
+  }
+  .about-us {
+    padding: 55px;
+  }
+
+}
