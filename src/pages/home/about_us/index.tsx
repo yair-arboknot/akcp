@@ -22,7 +22,7 @@ const AboutUs = () => {
 
     return <div className="about-us">
         <label className='about-us-title'>About Us</label>
-        <div style={{margin: "0 10.4%", marginBottom: "80px"}}>
+        <div style={{marginBottom: "80px"}}>
             <label className='about-us-text'>{ABOUT_US_TEXT_1}</label>
             <br/><br/>
             <label className='about-us-text'>{ABOUT_US_TEXT_2}</label>
