@@ -1,4 +1,3 @@
-import { url } from 'inspector'
 import './aboutUs.css'
 import timImage from "../../../images/tim.jpg"
 import markImage from "../../../images/mark.jpg"
