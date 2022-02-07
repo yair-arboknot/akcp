@@ -67,4 +67,21 @@
 
 .akcp-logo {
     margin-top: 186px;
+    width: 128px;
+    height: 128px;
+}
+
+@media only screen and (max-width: 576px) {
+    .head {
+        height: 667px;
+    }
+    .akcp-logo {
+        margin-top: 153px;
+        width: 96px;
+        height: 96px;  
+    }
+    .title {
+        margin: 40px 0 20px;
+        font-size: 32px;
+    }
 }

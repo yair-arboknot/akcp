@@ -38,7 +38,7 @@
   height: 204px;
   padding: 30px;
   margin-bottom: 30px;
-  background-color: rgba(0, 0, 0, 0.05);;
+  background-color: rgba(0, 0, 0, 0.05);
 }
 
 .teammate-image {
@@ -102,7 +102,12 @@
     height: max-content;
   }
   .about-us {
-    padding: 15px;
+    padding: 80px 15px;
+  }
+  .teammate-image {
+    width: 68px;
+    height: 68px;
+    margin: 0 20px 20px 0;
   }
 
 }
@@ -113,7 +118,6 @@
     height: max-content;
   }
   .about-us {
-    padding: 55px;
+    padding: 80px 55px;
   }
-
 }
