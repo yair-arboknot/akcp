@@ -19,7 +19,7 @@ const MARK_DESCRIPTION = `Prior to joining ArborKnot, Mark spent 19 years in var
 
 const AboutUs = () => {
 
-    return <div className="about-us">
+    return <div className="about-us" id="about-us">
         <label className='about-us-title'>About Us</label>
         <div style={{marginBottom: "80px"}}>
             <label className='about-us-text'>{ABOUT_US_TEXT_1}</label>
@@ -27,7 +27,7 @@ const AboutUs = () => {
             <label className='about-us-text'>{ABOUT_US_TEXT_2}</label>
         </div>
         
-        <label className='about-us-title'>Our Team</label>
+        <label className='about-us-title' id="our-team">Our Team</label>
         <TeammateCard image={timImage} fullName={"Tim Laforest"} title={"Co-Founder & COO ・"} description={TIM_DESCRIPTION}/>
         <TeammateCard image={markImage} fullName={"Mark Spiro"} title={"Co-Founder & CEO ・"} description={MARK_DESCRIPTION}/>
         
@@ -41,6 +41,7 @@ type TeammateCardPropsType = {
     title: string;
     description: string
 }
+
 const TeammateCard = (props: TeammateCardPropsType) => {
     return <div className="teammate-card">
             <img src={props.image} alt='' className='teammate-image'/> 

@@ -8,9 +8,9 @@ const Footer = () => {
             <div className="footer-wrapper">
                 <AKCPLogo className='akcp-logo-footer'/>
                 <div className="footer-linkes">
-                    <a href='#about-us'><label>ABOUT US</label></a>
-                    <a href='our-team'><label>OUR TEAM</label></a>
-                    <a href='#contact-us'><label>CONTACT US</label></a>
+                    <a href='#about-us'><label className='footer-link'>ABOUT US</label></a>
+                    <a href='#our-team'><label className='footer-link'>OUR TEAM</label></a>
+                    <a href='#contact-us'><label className='footer-link'>CONTACT US</label></a>
                 </div>
                 <img className='footer-linked-in-logo' src={linkedin} alt='Arborknot linkedin icon'/>
         </div>
