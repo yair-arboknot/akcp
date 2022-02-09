@@ -1,5 +1,6 @@
 import AboutUs from './about_us'
 import ContactUs from './contact_us/contactUs'
+import Footer from './footer/footer'
 import Head from './head'
 
 
@@ -9,6 +10,7 @@ const Home = () => {
         <Head/>
         <AboutUs/>
         <ContactUs/>
+        <Footer/>
     </>
 }
 

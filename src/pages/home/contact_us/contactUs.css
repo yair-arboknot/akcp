@@ -1,5 +1,5 @@
 .main-container {
-  height: 562px;
+  height: fit-content;
   display: flex;
   box-sizing: border-box;
   background-color: #f1e9da
@@ -90,10 +90,6 @@
 .contact-us-form-message-input {
   grid-column: 2;
   grid-row: 1 / span 2;
-}
-
-.send-contact {
-
 }
 
 @media only screen and (max-width: 576px) {

@@ -50,8 +50,6 @@
     opacity: 0.6;
 }
 
-
-
 .contact-us-text {
     width: 107px;
     height: 26px;
@@ -63,12 +61,19 @@
     line-height: 1.63;
     letter-spacing: normal;
     color: var(--black);
+    cursor: pointer;
 }
 
 .akcp-logo {
     margin-top: 186px;
     width: 128px;
     height: 128px;
+}
+
+.contact-us-text > a {
+    text-decoration: unset;
+    color: inherit;
+
 }
 
 @media only screen and (max-width: 576px) {
